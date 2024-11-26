@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 
+import colors from 'ColorSheet.js'; 
+
 function ThirdPage(props) {
     return (
         <View style={styles.container}>
@@ -14,7 +16,7 @@ export default ThirdPage;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#195392',
+        backgroundColor: colors.accent500,
         borderColor: 'black',
         borderTopColor: 'white'
     }
