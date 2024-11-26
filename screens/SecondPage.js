@@ -1,5 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 
+import colors from 'ColorSheet.js';
+
 function SecondPage(props) {
   return (
     <View style={styles.container}>
@@ -15,7 +17,7 @@ const styles = StyleSheet.create({
 
   container: {
     flex: 1,
-    backgroundColor: '#195392',
+    backgroundColor: colors.primary500,
     borderBlockColor: 'black'
   },
   textStyle : {
