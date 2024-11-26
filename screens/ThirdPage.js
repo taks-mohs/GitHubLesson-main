@@ -14,6 +14,7 @@ export default ThirdPage;
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#195392'
+        backgroundColor: '#195392',
+        borderBlockColor: 'black'
     }
 });
