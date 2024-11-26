@@ -3,4 +3,5 @@ const colors = {
     primary700: '#474250',
     accent1: '#ab391f',
     taksColor: 'blue',
+    seanColor: 'green'
 }
