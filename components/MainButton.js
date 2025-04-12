@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { Link} from "expo-router";
+import { Link } from "expo-router";
 
 function MainButton(props) {
   return (
